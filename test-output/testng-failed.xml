@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [retail]">
+  <parameter name="browser" value="ie"/>
+  <test name="ie(failed)">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="myRetail.Test_Prog">
+        <methods>
+          <include name="testApp" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- myRetail.Test_Prog -->
+    </classes>
+  </test> <!-- ie(failed) -->
+</suite> <!-- Failed suite [retail] -->
